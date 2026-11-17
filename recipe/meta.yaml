@@ -19,7 +19,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - pkg-config
+    - pkgconf
     - cmake
     - make
     - python                                 # [build_platform != target_platform]
